@@ -1,0 +1,59 @@
+body {
+    font-family: "Lato", Arial, sans-serif;
+    width: 40%;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 16px;
+    margin-top: 12px;
+    background-color: #fefefe;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content:flex-start ; /* Distribui os elementos igualmente */
+    margin-bottom: 20px; /* Adiciona espaço entre o container e o próximo elemento */
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.nomes-perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+.follow {
+    display: flex;
+    align-items:flex-end; /* Centraliza verticalmente */
+    margin-top: auto; /* Coloca o elemento no final do contêiner pai */
+    margin-left: auto; /* Coloca o elemento no lado direito do contêiner pai */
+    position: relative;
+    top: -40px;
+}
+
+.description {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.retweets .texto strong,
+.retweets .texto i {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center; /* Centraliza verticalmente */
+    gap: 10px; /* Adiciona espaço entre os botões */
+    transition: all 0.3s; /* Adiciona uma transição suave para todas as propriedades */
+}

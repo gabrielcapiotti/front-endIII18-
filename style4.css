@@ -1,0 +1,62 @@
+body {
+    font-family: "Lato", Arial, sans-serif;
+    margin: auto;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    margin-top: 12px;
+    background-color: #fefefe;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    background-color: #585858;
+}
+
+.imagem{
+    height: 100px;
+    width: 100px;
+    border-radius: 150px;
+    border: 3px solid black; 
+}
+
+.texto{
+    display: flex;
+    text-align: justify;
+    margin: 10px;
+}
+
+.botao{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: coral;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #0e121d;
+    color: white;
+    transform: scale(1.1); /* Aumenta o tamanho do botão em 10% */
+}
+
+@keyframes identidade {
+    from {
+        transform: rotate(0deg); /* Rotação inicial */
+    }
+    to {
+        transform: rotate(360deg); /* Rotação completa */
+    }
+}
+
+.animar {
+    animation: identidade 3s ease infinite; /* Aplica a animação identidade */
+}
+

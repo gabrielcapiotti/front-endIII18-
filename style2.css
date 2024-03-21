@@ -1,0 +1,44 @@
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: blueviolet;
+}
+
+.container {
+    position: absolute;
+}
+
+.bola1{
+    position: fixed; /* Faz o elemento ficar fixo na tela */
+    top: 0; /* Topo da viewport */
+    right: 0; /* Lado direito da viewport */
+    border-radius: 50%; /* Torna a div uma bola */
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+
+
+.quadrado1{
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
+
+.quadrado2{
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
