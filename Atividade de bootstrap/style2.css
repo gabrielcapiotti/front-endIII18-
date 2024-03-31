@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin: 50px;
+    text-align: center;
+}
+
+.barras {
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 1000px;
+}
+
+.estensao1, .estensao4{
+    background-color: rgb(0, 7, 147);
+    height: 50px;
+}
+.estensao2, .estensao5{
+    background-color: rgb(30, 96, 0);
+    height: 50px;
+}
+.estensao3, .estensao6{
+    background-color: rgb(126, 0, 0);
+    height: 50px;
+}
+
+.barragem {
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 1000px;
+    margin: 20px;
+    background-color: rgb(101, 7, 0);
+}
+
+
+.linha1, .linha4{
+    background-color: rgb(1, 1, 1);
+    height: 50px;
+}
+
+.linha2{
+    background-color: rgb(22, 94, 0);
+    height: 50px;
+    width: 25%;
+}
+
+.tabela {
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 800px;
+    height: 200px;
+    margin: 20px;
+}
+
+.parte1{
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+}
+

@@ -1,0 +1,105 @@
+body {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin: 50px;
+}
+
+.container-text {
+    align-content: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.row { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.titulos{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    
+}
+
+h2{
+    display: flex;
+    position: relative;
+    top: 9px;
+    color: gray;
+}
+
+.texto-body {
+    text-align: justify;
+    border: 1px solid black; /* Apenas para visualização */
+    display: inline-block;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin: 10px;
+}
+
+
+.marcado {
+    text-align: justify;
+    width: 90vw;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.conteudo {
+    background-color: dimgrey;
+    color: black;
+}
+
+.duplo-card {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.left-rows2, .right-rows-2{
+    border: 1px solid black; /* Apenas para visualização */
+    width: calc(25% - 10px); /* Calcula a largura dos cards para ocupar aproximadamente um terço da largura da página */
+    text-align: justify;
+    margin: 10px;
+}
+
+.triplo-card {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que os itens sejam distribuídos em várias linhas */
+    
+    justify-content: space-between;
+}
+
+.center-rows-3 {
+    padding: 20px;
+    border: 1px solid black; /* Apenas para visualização */
+    width: calc(25% - 10px); /* Calcula a largura dos cards para ocupar aproximadamente um terço da largura da página */
+    text-align: justify;
+    margin: 10px;
+    align-items: center;
+}
+
+.last-row{
+    text-align:right;
+
+}
