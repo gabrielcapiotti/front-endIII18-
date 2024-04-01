@@ -9,43 +9,31 @@ body {
 
 .card {
     display: flex;
-    /* Usando flexbox para os elementos do card */
+    width: 800px;
+    height: 400px;
     border: 1px solid black;
     border-radius: 15px;
     overflow: hidden;
-    /* Para evitar que o conteúdo interno ultrapasse os limites do card */
 }
 
 .card-interno {
     flex: 1;
-    /* Ocupa o espaço disponível */
     border-left: 1px solid black;
-    /* Adiciona uma borda à esquerda */
     padding: 20px;
 }
 
 
-.card {
-    display: flex;
-    border: 1px solid black;
-    border-radius: 15px;
-    overflow: hidden;
-}
-
-
-.btn-group-vertical {
-    display: flex;
+.card-esquerdo {
+    display: inline-block;
     flex-direction: column;
     /* Coloca os botões um embaixo do outro */
 }
 
 .botao {
-    width: 100%;
-    /* Ocupa toda a largura disponível */
+    width: 50%;
     border-radius: 15px;
     border: 2px solid black;
     padding: 10px;
-
     background-color: #484848;
     cursor: pointer;
     margin: 10px;
@@ -54,19 +42,20 @@ body {
 .botao:hover {
     background-color: #977600;
     font-size: 16px;
-    /* Tamanho da fonte */
     transition-duration: 0.2s;
     color: rgb(251, 251, 251);
-
 }
 
 .perfil {
     width: 150px;
     height: auto;
-    border-radius: 100%; /* Ajuste para metade da largura para criar um círculo */
+    border: 3px solid black;
+    border-radius: 50%; /* Ajuste para metade da largura para criar um círculo */
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto; /* Centraliza horizontalmente */
 }
+
+
